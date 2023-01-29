@@ -27,3 +27,12 @@ function letterFinder(word, match) {
 }
 
 letterFinder("test", "t")
+
+
+// Introduction to objects
+let andrew = {
+    name: "Andrew Virts",
+    occupation: "Web Designer"
+}
+
+console.log(andrew)
