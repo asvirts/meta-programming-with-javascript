@@ -32,7 +32,10 @@ letterFinder("test", "t")
 // Introduction to objects
 let andrew = {
     name: "Andrew Virts",
-    occupation: "Web Designer"
+    occupation: "Web Designer",
 }
+
+andrew.company = "Stuller"
+andrew.college = "University of Alabama"
 
 console.log(andrew)
