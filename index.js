@@ -67,7 +67,7 @@ function addTwoNums(a, b) {
 addTwoNums(7, 16)
 
 
-// Solution: Defensive programming
+// Exercise: Defensive programming
 function letterFinder(word, match) {
     var condition1 = typeof(word) == 'string' && word.length >= 2; //if the word is a string and the length is greater than or equal to 2
     var condition2 = typeof(match) == 'string' && match.length == 1; //if the match is a string and the length is equal to 1
