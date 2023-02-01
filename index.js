@@ -57,3 +57,11 @@ let favCar = []
 favCar.color = "green"
 favCar.convertible = false
 console.log(favCar)
+
+
+// Exercise: Error prevention
+function addTwoNums(a, b) {
+    console.log(a + b)
+}
+
+addTwoNums(7, 16)
