@@ -99,3 +99,12 @@ function totalPrice(shoes, tax) {
 
 let toPay = totalPrice(shoes, stateTax)
 console.log(toPay)
+
+let purchase1 = {
+    shoes: 100,
+    stateTax: 1.2,
+    totalPrice: function() {
+        let calculation = purchase1.shoes * purchase1.stateTax
+        console.log("Total price:", calculation)
+    }
+}
