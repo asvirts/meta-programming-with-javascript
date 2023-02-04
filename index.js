@@ -98,3 +98,4 @@ function totalPrice(shoes, tax) {
 }
 
 let toPay = totalPrice(shoes, stateTax)
+console.log(toPay)
