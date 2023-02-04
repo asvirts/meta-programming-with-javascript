@@ -7,7 +7,7 @@ h1 {
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    color: #0080FB;
+    color: #1C2B33;
 }
 
 li {
@@ -17,5 +17,9 @@ li {
 }
 
 a {
+    color:#0080FB;
+}
+
+a:hover {
     color:#1C2B33;
 }
