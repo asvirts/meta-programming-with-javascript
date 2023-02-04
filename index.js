@@ -108,3 +108,12 @@ let purchase1 = {
         console.log("Total price:", calculation)
     }
 }
+
+let bird = {
+    hasWings = true,
+    canFly = true,
+    hasFeathers = true
+}
+
+let eagle1 = Object.create(bird)
+console.log("eagle1:", eagle1)
