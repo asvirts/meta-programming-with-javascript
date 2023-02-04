@@ -87,3 +87,14 @@ function letterFinder(word, match) {
 }
 letterFinder([],[])
 letterFinder("cat","c")
+
+
+// Introduction to object-oriented programming
+let shoes = 100
+let stateTax = 1.2
+
+function totalPrice(shoes, tax) {
+    return shoes * tax
+}
+
+let toPay = totalPrice(shoes, stateTax)
