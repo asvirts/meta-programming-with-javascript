@@ -1,18 +1,21 @@
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
+    color: #0668E1;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
+    color: #0080FB;
 }
 
 li {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
     font-weight: 400;
 }
 
 a {
-    color:#212121
+    color:#1C2B33;
 }
