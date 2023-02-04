@@ -117,3 +117,38 @@ let bird = {
 
 let eagle1 = Object.create(bird)
 console.log("eagle1:", eagle1)
+
+
+//          Programming Assignment: Building an object-oriented program
+
+// Task 1: Code a Person class
+
+class Person {
+    constructor(name, age, energy) {
+        this.name = "Tom"
+        this.age = 20
+        this.energy = 100
+    }
+    sleep() {
+        this.energy += 10
+    }
+    doSomethingFun() {
+        this.energy -= 10
+    }
+}
+
+// Task 2: Code a Worker class
+
+class Worker {
+    
+}
+
+// Task 3: Code an intern object, run methods
+function intern() {
+
+}
+
+// Task 4: Code a manager object, methods
+function manager() {
+    
+}
