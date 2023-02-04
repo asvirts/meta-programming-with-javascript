@@ -110,9 +110,9 @@ let purchase1 = {
 }
 
 let bird = {
-    hasWings = true,
-    canFly = true,
-    hasFeathers = true
+    hasWings: true,
+    canFly: true,
+    hasFeathers: true
 }
 
 let eagle1 = Object.create(bird)
